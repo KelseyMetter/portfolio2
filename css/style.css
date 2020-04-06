@@ -63,7 +63,7 @@
 }
 
 .site-main .site-banner .site-title h1 {
-    font-size: 1.5rem;
+    font-size: 5rem;
 }
 
 .site-main .site-banner .site-title h4 {
@@ -184,7 +184,7 @@
     padding:7rem 2rem;
 }
 
-.site-main .services-area{
+.site-main .services-area .services-title{
     padding:0 14rem;
 }
 
@@ -297,7 +297,7 @@
     padding: 1.5rem 1rem;
     border: 1px solid whitesmoke;
     background: transparent;
-    color: black;
+    color: white;
     font: normal 500 17px/20px var(--roboto);
 }
 
@@ -307,7 +307,7 @@
 
 site-main .subscribe-us-area .subscribe form .btn-submit button{
     background: whitesmoke;
-    color: black;
+    color: #000;
     padding: .7rem 2rem;
 }
 
@@ -317,7 +317,7 @@ site-main .subscribe-us-area .subscribe form .btn-submit button{
 
 footer.footer-area{
     padding: 5rem 0;
-    background: url(./img/footer-bg.png)no-repeat;
+    background: url(../img/footer-bg.png)no-repeat;
 }
 
 footer.footer-area .social h5{

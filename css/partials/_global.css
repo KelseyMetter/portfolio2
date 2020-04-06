@@ -14,7 +14,7 @@
 .button{
     padding: .8rem 2.2rem;
     font: normal 500 16px/20px var(--roboto);
-    position: realative;
+    position: relative;
     border: 3px solid transparent;
     border-radius: 4px;
 }
@@ -35,10 +35,10 @@
 
 .button.primary-button::after,.button.secondary-button::after{
     position:absolute;
-    /*top:-2px; left:-2px;*/
+    top:-2px; left:-2px;
     bottom:-2px; right:-2px;
     background:var(--gradient-color);
-    content:"";
+    content:" ";
     z-index:-1;
     border-radius:4px;
 }
@@ -55,7 +55,7 @@
     box-shadow: var(--box-shadow);
 }
 
-.p.para{
+p.para{
     color:var(--text-color);
     font:normal 500 16px/25px var(--roboto);
 }
